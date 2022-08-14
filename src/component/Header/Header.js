@@ -10,7 +10,7 @@ import useFirebase from '../../hooks/useFirebase';
 
 
 const Header = () => {
-    const { user, logOut, googleSignIn } = useFirebase();
+    const { user, logOut } = useFirebase();
     return (
         <div className='header'>
             <Navbar collapseOnSelect expand="lg" variant="light">
