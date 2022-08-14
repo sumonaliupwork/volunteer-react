@@ -1,0 +1,22 @@
+.title.card-title.h5 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.volunteer.card-body {
+    padding: 40px 15px 10px 15px;
+}
+
+.mx-auto.card {
+    width: 35%;
+    margin-top: 30px;
+}
+
+.registerBtn {
+    padding: 10px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.registerBtn.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    margin-top: 30px;
+}

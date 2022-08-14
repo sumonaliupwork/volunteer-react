@@ -1,0 +1,43 @@
+.login {
+    height: 100vh;
+}
+
+button.googleBtn {
+    width: 80%;
+    padding: 10px;
+    background: white;
+    border: 1px solid #bfbcbc;
+    border-radius: 25px;
+    text-align: left;
+}
+
+span.continueGoogle {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 25%;
+}
+
+.loginCard.card-body {
+    padding: 100px 0px;
+}
+
+.mx-auto.cardLogin.card {
+    width: 40%;
+}
+
+.titleLogin.card-title.h5 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+span.loginLink a {
+    text-decoration: underline;
+}
+
+span.googleIcon {
+    color: #b2d716;
+    font-size: 20px;
+}

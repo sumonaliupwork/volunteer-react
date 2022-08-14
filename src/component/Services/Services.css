@@ -1,0 +1,85 @@
+.input-group.mb-3.mx-auto {
+    width: 40%;
+}
+
+input.form-control {
+    font-size: 20px;
+}
+
+searchBox form-control {
+    position: relative;
+    padding: 26px;
+}
+
+input#formGroupEmail {
+    position: relative;
+    padding: 10px 20px;
+}
+
+button.searchBtn.btn.btn-primary {
+    position: absolute;
+    top: 0px;
+    right: -14px;
+    border-left: solid;
+    width: 100px;
+    padding: 8px 0px;
+}
+
+
+.input-group.mb-3.mx-auto {
+    width: 40%;
+}
+
+input.form-control {
+    font-size: 20px;
+}
+
+h2.text-uppercase {
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.input-group.mb-3.mx-auto {
+    padding-bottom: 30px;
+}
+
+/* Media query */
+
+@media only screen and (max-width:576px) {
+
+
+    .input-group.mb-3.mx-auto {
+        width: 80%;
+    }
+
+    button#button-addon2 {
+        width: 80px;
+    }
+}
+
+@media only screen and (min-width: 577px) {
+    .input-group.mb-3.mx-auto {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .input-group.mb-3.mx-auto {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .input-group.mb-3.mx-auto {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .input-group.mb-3.mx-auto {
+        width: 40%;
+    }
+
+}
