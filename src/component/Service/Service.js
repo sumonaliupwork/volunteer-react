@@ -6,7 +6,7 @@ const Service = (props) => {
     const { _id, name, img } = props.product;
     const navigate = useNavigate();
     const handleNextPage = () => {
-        navigate(`/volunteer/${_id}`);
+        navigate(`/volunteer`);
 
     }
     return (

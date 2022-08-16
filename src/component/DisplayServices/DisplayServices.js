@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Service from '../Service/Service';
 import CircularProgress from '@mui/material/CircularProgress';
-import Box from '@mui/material/Box';
 
 
 
@@ -10,7 +9,7 @@ const DisplayServices = () => {
     console.log(services);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services`)
+        fetch(`https://quiet-earth-89522.herokuapp.com/services`)
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
