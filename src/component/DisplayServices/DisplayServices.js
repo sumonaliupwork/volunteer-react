@@ -6,7 +6,6 @@ import CircularProgress from '@mui/material/CircularProgress';
 
 const DisplayServices = () => {
     const [services, setServices] = useState([]);
-    console.log(services);
 
     useEffect(() => {
         fetch(`https://quiet-earth-89522.herokuapp.com/services`)

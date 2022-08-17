@@ -26,7 +26,7 @@ const Header = () => {
 
                             <span>
                                 {
-                                    user.displayName ? <Button onClick={logOut} variant="primary">Log-Out</Button>
+                                    user.email ? <Button onClick={logOut} variant="primary">Log-Out</Button>
                                         :
                                         <Link to={'/register'}><Button variant="primary">Register</Button></Link>
                                 }
@@ -34,7 +34,7 @@ const Header = () => {
                                 <Button variant="secondary">Admin</Button>{' '}
 
                             </span>
-                            {user.displayName && <span className='userName'><Nav.Link>{user.displayName}</Nav.Link></span>}
+                            {user.email && <span className='userName'><Nav.Link>{user.displayName}</Nav.Link></span>}
 
                         </Nav>
 
