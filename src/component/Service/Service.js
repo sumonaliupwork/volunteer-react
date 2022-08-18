@@ -1,24 +1,21 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = (props) => {
     const { _id, name, img } = props.product;
-    const navigate = useNavigate();
-    const handleNextPage = () => {
-        navigate(`/volunteer`);
-
-    }
     return (
 
-        <div onClick={handleNextPage} className="col">
-            <div className="card">
-                <img src={img} className="card-img-top" alt="..." />
-                <div className="card-body">
-                    <h5 className="title">{name}</h5>
+        <Link to={`/volunteer/${_id}`}>
+            <div className="col">
+                <div className="card">
+                    <img src={img} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="title">{name.toUpperCase()}</h5>
+                    </div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 

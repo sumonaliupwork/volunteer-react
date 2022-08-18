@@ -6,7 +6,7 @@ const PrivateRoute = ({ children }) => {
     const { user, isLogin } = useFirebase();
     const location = useLocation();
     if (isLogin) {
-        return <h2>Data is Loading.....</h2>
+        return <h2>Loading.....</h2>
     }
     return (
         <div>

@@ -8,7 +8,7 @@ const Login = () => {
     const { googleSignIn } = useFirebase();
     const location = useLocation();
     const navigate = useNavigate();
-    const location_ui = location.state?.from || '/home';
+    const location_ui = location.state?.from || '/';
 
     const handleGoogleSignIn = () => {
         googleSignIn()
